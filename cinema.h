@@ -24,16 +24,4 @@ typedef struct
     int meiaEntrada;
 } Bilhete;
 
-// Variaveis globais
-int totalBilhetes = 0;
-int numeroBilheteAtual = 1000;
-void inicializarSala();
-void mostrarSala();
-void listarFilmes();
-Bilhete reservarBilhete();
-void imprimirBilhete(Bilhete b);
-int buscaBilhete(int numero);
-void relatorio();
-void menu();
-
 #endif

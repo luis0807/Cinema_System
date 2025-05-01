@@ -1,4 +1,7 @@
 #include "cinema.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 
 #define LINHAS 5
 #define COLUNAS 5
@@ -6,6 +9,12 @@
 #define MAX_FILMES 5
 
 // Funções auxiliares
+
+Assento sala[LINHAS][COLUNAS];
+Bilhete bilhetes[MAX_BILHETES];
+int totalBilhetes = 0;
+int numeroBilheteAtual = 1000;
+
 void inicializarSala()
 {
     int i, j;
